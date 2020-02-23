@@ -207,6 +207,66 @@
     margin: 20px 0 0;
 }
 
+/* разметка четвертой секции сайта Feinman*/
+
+.feinman {
+   height: 890px;
+   background-color: #f2f2f2;
+   background-image: url(../images/feinman.png);
+   background-repeat: no-repeat;
+   background-position: left bottom;
+   background-size: 867px 637px;
+   -o-background-size: 867px 637px;
+   -moz-background-size: 867px 637px;
+   position: relative;
+   /* margin: 0; */
+   /* display: flex; */
+}
+
+.feinman__title {
+    width: 648px;
+    margin: 100px auto 70px;
+}
+
+.feinman__subtitle {
+    width: 648px;
+    margin: 0 auto;
+}
+
+.feinman__link {
+    position: absolute;
+    top: 50%;
+    right: 48px;
+}
+
+/* работа непосредственно с текстом четвертой секции сайта Feinman*/
+
+.feinman__title_text {
+    margin: 0;
+    text-align: center;
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.feinman__subtitle_text {
+    margin: 0;
+    text-align: center;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.feinman__link_text {
+    margin: 0;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+}
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
