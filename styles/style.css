@@ -219,16 +219,19 @@
    -o-background-size: 867px 637px;
    -moz-background-size: 867px 637px;
    position: relative;
+   /* padding-top: 100px; */
 }
 
 .feinman__title {
     width: 648px;
-    margin: 100px auto 70px;
+    margin: 0 auto;
+    padding-top: 100px;
 }
 
 .feinman__subtitle {
     width: 648px;
     margin: 0 auto;
+    padding-top: 70px;
 }
 
 .feinman__link {
@@ -380,9 +383,9 @@
 
 
 
-div, h1, h2, h3, a, p {
+/* div, h1, h2, h3, a, p {
     border: 1px solid red;
 }
 section {
     border: 1px solid red;
-}
+} */
