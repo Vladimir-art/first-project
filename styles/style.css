@@ -20,19 +20,13 @@
     background-color: #f2f2f2;
 }
 
-.logo {
-  width: 183px;
-  height: 32px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+.logo  {
   position: absolute;
-  top: 30px;
-  left: 64px;
 }
 
 .logo_place_header {
-  background-image: url(../images/logo.svg);
+  top: 30px;
+  left: 64px;
 }
 
 .header__title {
@@ -290,11 +284,13 @@
     width: 60%;
     align-self: center;
     margin-bottom: 20px;
+    z-index: 1;
 }
 
 .section-subtitle {
     width: 60%;
     align-self: center;
+    z-index: 1;
 }
 
 .table_theme_dark {
@@ -348,17 +344,72 @@
     color: white;
 }
 
+/* подвал */
 
+.footer {
+    background-color: black;
+    padding: 60px 0;
+}
 
+.footer__colums {
+    min-height: 350px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 711px;
+}
 
+.footer__colums_copyright {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-/* и элемента с модификатором вида ключ-значение */
-/* .table__cell_theme_dark {
-    width: 200px;
+.logo_place_footer {
+  position: relative;
+  width: 183px;
+  height: 35px;  
+}
+
+.footer__autor {
+    margin: 18px 0;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
     color: white;
-    margin-right: 0;
-    margin-top: 80px;
-} */
+}
+
+.footer__column_content_info, .footer__column_content_social {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__column-heading {
+    margin: 0 0 20px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer__column-links {
+    margin-bottom: 16px;
+    text-decoration: none;
+    display: flex;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+}
+
+.footer__social-icon {
+    margin-right: 10px;
+    align-self: center;
+}
 
 
 
@@ -369,21 +420,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* div, h1, h2, h3, a, p {
+/* div, h1, h2, h3, a, p, nav, img, address {
     border: 1px solid red;
 }
 section {
